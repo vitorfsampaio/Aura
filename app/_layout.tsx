@@ -13,7 +13,6 @@ import {
   Inter_700Bold
 } from '@expo-google-fonts/inter';
 
-// Prevent splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
@@ -31,7 +30,6 @@ export default function RootLayout() {
     }
   }, [fontsLoaded, fontError]);
 
-  // Return null to keep splash screen visible while fonts load
   if (!fontsLoaded && !fontError) {
     return null;
   }
