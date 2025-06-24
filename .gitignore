@@ -1,11 +1,11 @@
 # dependencies
-node_modules/
+frontend/node_modules/
 
 # expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+frontend/expo-env.d.ts
 
 # native
 *.orig.*
@@ -16,19 +16,147 @@ expo-env.d.ts
 *.mobileprovision
 
 # metro
-.metro-health-check*
+frontend/.metro-health-check*
 
 # debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macos
+# macOS
 .DS_Store
 *.pem
 
 # local env files
+.env
 .env*.local
+back-end/.env
 
 # typescript
 *.tsbuildinfo
+
+# Byte-compiled / optimized / DLL files
+back-end/__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+back-end/.Python
+back-end/build/
+back-end/develop-eggs/
+back-end/dist/
+back-end/downloads/
+back-end/eggs/
+back-end/.eggs/
+back-end/lib/
+back-end/lib64/
+back-end/parts/
+back-end/sdist/
+back-end/var/
+back-end/wheels/
+back-end/share/python-wheels/
+back-end/*.egg-info/
+back-end/.installed.cfg
+back-end/*.egg
+back-end/MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+back-end/htmlcov/
+back-end/.tox/
+back-end/.nox/
+back-end/.coverage
+back-end/.coverage.*
+back-end/.cache
+back-end/nosetests.xml
+back-end/coverage.xml
+back-end/*.cover
+back-end/*.py,cover
+back-end/.hypothesis/
+back-end/.pytest_cache/
+back-end/cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+back-end/*.log
+back-end/local_settings.py
+back-end/db.sqlite3
+back-end/db.sqlite3-journal
+
+# Flask stuff:
+back-end/instance/
+back-end/.webassets-cache
+
+# Scrapy stuff:
+back-end/.scrapy
+
+# Sphinx documentation
+back-end/docs/_build/
+
+# PyBuilder
+back-end/.pybuilder/
+back-end/target/
+
+# Jupyter Notebook
+back-end/.ipynb_checkpoints
+
+# IPython
+back-end/profile_default/
+back-end/ipython_config.py
+
+# pipenv / poetry / pdm
+# (ajustado para manter apenas o que é geralmente ignorado)
+back-end/Pipfile.lock
+back-end/poetry.lock
+back-end/pdm.lock
+back-end/.pdm.toml
+back-end/.pdm-python
+back-end/.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+back-end/__pypackages__/
+
+# Celery stuff
+back-end/celerybeat-schedule
+back-end/celerybeat.pid
+
+# SageMath parsed files
+back-end/*.sage.py
+
+# Spyder / Rope / IDE
+back-end/.spyderproject
+back-end/.spyproject
+back-end/.ropeproject
+
+# mkdocs documentation
+back-end/site/
+
+# mypy / Ruff / Pyre / pytype
+back-end/.mypy_cache/
+back-end/.dmypy.json
+back-end/dmypy.json
+back-end/.ruff_cache/
+back-end/.pyre/
+back-end/.pytype/
+
+# PyCharm
+# (não ignorado por padrão, mas pode ser ativado)
+#.idea/
+
+# PyPI config
+back-end/.pypirc
+
+.idea/
