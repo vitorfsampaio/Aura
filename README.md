@@ -1,5 +1,4 @@
-# App Mobile — Novas Tecnologias
-Este é um aplicativo desenvolvido como parte do projeto da disciplina Novas Tecnologias, ministrada pelo professor Adam Smith.
+# App Mobile — Programação Web
 
 Tecnologias Utilizadas
 - Expo
